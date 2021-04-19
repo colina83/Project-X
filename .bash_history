@@ -47,3 +47,18 @@ ls -ltr
 python utils.py 
 python utils.py 
 python utils.py 
+ls -ltr
+python utils.py 
+ls -ltr
+git init
+git add .
+git commit -m "Initializing Repository"
+git config --global user.email "franco.collina@gmail.com"
+git config --global user.name "colina83"
+git commit -m "Initializing Repository"
+git remote add origin https://github.com/colina83/GSH_DS-ML_Seismic_Inversion.git
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/colina83/GSH_DS-ML_Seismic_Inversion.git
+git push -u origin main
